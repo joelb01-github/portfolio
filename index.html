@@ -1,75 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
   <head>
-    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    
+    <!-- Bootstrap requirements -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+
   </head>
+
   <body>
-    <nav id="navbar">
-      <ul>
+
+    <div class="row">
+      <ul class="list-inline">
         <li><a href="#navbar">Home</a></li>
         <li><a href="#welcome-section">Projects</a></li>
         <li><a href="#about">About Me</a></li>
-        <li class="contact"><a href="#contact">Contact</a></li>
+        <li class=""><a href="#contact">Contact</a></li>
       </ul>
-    </nav>
-  <main>
-    <section id="welcome-section" class="welcome">
-      <div class="flexbox">
-        <img src="https://firebasestorage.googleapis.com/v0/b/confusionserver-956e4.appspot.com/o/images%2FJoel.jpeg?alt=media&token=01ce3c2e-a060-4b31-b920-4d11e49a4d06" class="joel" alt="joel">
-        <div class="welcomeText">
-          <h1>Hi, I'm Joel Barenco</h1>
-          <h4>I'm a software developer</h4>
-        </div>
-      </div>
-    </section>
-    <section id="projects" class="projects">
-      <div class="project-tile">
-        <a href="https://joelb01-github.github.io">
-        <div  class="project-title">
-          <h4>React App</h4>
-          React, bootstrap, redux
-        </div>
-        <img class="project-img" src="https://firebasestorage.googleapis.com/v0/b/confusionserver-956e4.appspot.com/o/images%2Fportfolio_confusion.png?alt=media&token=7b3c03c6-ecb5-4b85-bfac-e295d51166fb"></a>
-      </div>
-      <div class="project-tile">
-        <h4 class="project-title">Project 2</h4>
-      </div>
-      <div class="project-tile">
-        <h4 class="project-title">Project 3</h4>
-      </div>
-      <div class="project-tile">
-        <h4 class="project-title">Project 4</h4>
-      </div>
-      <div class="project-tile">
-        <h4 class="project-title">Project 5</h4>
-      </div>
-      <div class="project-tile">
-        <h4 class="project-title">Project 6</h4>
-      </div>
-    </section>
-    <section id="about">
-      <div class="resume">
-        <h2>About Me</h2>
-        <p>Team player with a sharp analytical mind who loves problem solving and has a true passion for excellence. With 7 plus years multidisciplinary background that includes engineering, manufacturing and finance, possesses keen interests in industrial and technological businesses evolving in an international environment. </p>
+    </div>
 
-<p>I'm now training to become a software engineer in the blockchain space. I have been learning Javascript/Node.js Full-Stack Web Development (React, Express, MongoDB) and I'm now enrolled on the Work on Blockchain developer bootcamp focusing on Ethereum smart contracts with Solidity. </p>
+    <div class="container">
 
-<p>Reach out to me if you are looking to hire a junior software engineer who is keen to immersed himself in the world of blockchain technology.</p>
-      </div>
-    </section>
-    <section id="contact">
-      <div class="profileLinks">
-        <h2>Contact Me</h2>
-        <div class="contactLinks">
-          <a id="profile-link" target="_blank" href="https://github.com/joelb01-github" ><img class="contact_img" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="github logo"></a>
-          
-          <a id="profile-link" target="_blank"  href="https://www.linkedin.com/in/joelbarenco/"><img class="contact_img" src="http://www.theredbrickroad.com/wp-content/uploads/2017/05/linkedin-logo-copy.png" alt="github logo"></a>
-          
-          <a id="profile-link" target="_blank"  href="href="mailto:joelbarenco@gmail.com""><img class="contact_img" src="http://www.stickpng.com/assets/images/584856b4e0bb315b0f7675ac.png" alt="github logo"></a>
+      <main>
+        
+        <div class="row">
+          <div class="col-xs-4 col-md-2">
+            <img class="img-responsive" src="https://firebasestorage.googleapis.com/v0/b/confusionserver-956e4.appspot.com/o/images%2FJoel.jpeg?alt=media&token=01ce3c2e-a060-4b31-b920-4d11e49a4d06" alt="joel">
+          </div>
+          <div class="col-xs-8 col-md-4">
+            <h1>Hi, I'm Joel Barenco</h1>
+            <h4>I'm a software developer</h4>
+          </div>
         </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-md-4">
+              <div class="well">
+              <a href="https://joelb01-github.github.io">
+              <div class="text-center text-primary">
+                <h4>React App</h4>
+                React, bootstrap, redux
+              </div>
+              <img class="img-responsive" src="https://firebasestorage.googleapis.com/v0/b/confusionserver-956e4.appspot.com/o/images%2Fportfolio_confusion.png?alt=media&token=7b3c03c6-ecb5-4b85-bfac-e295d51166fb"></a>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-4">
+              <div class="well">
+              <a href="https://joelb01-github.github.io">
+              <div class="text-center text-primary">
+                <h4>Project Title</h4>
+                Project description
+              </div>
+              <img class="img-responsive" src=""></a>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-4">
+              <div class="well">
+              <a href="https://joelb01-github.github.io">
+              <div class="text-center text-primary">
+                <h4>Project Title</h4>
+                Project description
+              </div>
+              <img class="img-responsive" src=""></a>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-4">
+              <div class="well">
+              <a href="https://joelb01-github.github.io">
+              <div class="text-center text-primary">
+                <h4>Project Title</h4>
+                Project description
+              </div>
+              <img class="img-responsive" src=""></a>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-4">
+              <div class="well">
+              <a href="https://joelb01-github.github.io">
+              <div class="text-center text-primary">
+                <h4>Project Title</h4>
+                Project description
+              </div>
+              <img class="img-responsive" src=""></a>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-4">
+              <div class="well">
+              <a href="https://joelb01-github.github.io">
+              <div class="text-center text-primary">
+                <h4>Project Title</h4>
+                Project description
+              </div>
+              <img class="img-responsive" src=""></a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="well">
+            <h2>About Me</h2>
+            <p>Team player with a sharp analytical mind who loves problem solving and has a true passion for excellence. With 7 plus years multidisciplinary background that includes engineering, manufacturing and finance, possesses keen interests in industrial and technological businesses evolving in an international environment. </p>
+
+            <p>I'm now training to become a software engineer in the blockchain space. I have been learning Javascript/Node.js Full-Stack Web Development (React, Express, MongoDB) and I'm now enrolled on the Work on Blockchain developer bootcamp focusing on Ethereum smart contracts with Solidity. </p>
+
+            <p>Reach out to me if you are looking to hire a junior software engineer who is keen to immersed himself in the world of blockchain technology.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <h2>Contact Me</h2>
+          <a target="_blank" href="https://github.com/joelb01-github" ><i class="fa fa-github fa-lg"></i></a>
+          <a target="_blank"  href="https://www.linkedin.com/in/joelbarenco/"><i class="fa fa-linkedin fa-lg"></i></a>
+          <a target="_blank"  href="mailto:joelbarenco@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
+        </div>
+
       </div>
-    </section>
-  </main>
+
+    </main>
+  </div>
+
+  <!-- scripts necessary for Bootstrap to function -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
 </html>
