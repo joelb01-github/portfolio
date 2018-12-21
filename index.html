@@ -1,12 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
   <head>
-    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Joel's Portfolio</title>
+    <meta name="author" content="Joel Barenco">
+    <meta charset="utf-8">
     
     <!-- Bootstrap requirements -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- font awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
@@ -15,125 +17,155 @@
 
   <body>
 
-    <div class="row">
-      <ul class="list-inline">
-        <li><a href="#navbar">Home</a></li>
-        <li><a href="#welcome-section">Projects</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li class=""><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
 
-    <div class="container">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
 
-      <main>
-        
-        <div class="row">
-          <div class="col-xs-4 col-md-2">
-            <img class="img-responsive" src="https://firebasestorage.googleapis.com/v0/b/confusionserver-956e4.appspot.com/o/images%2FJoel.jpeg?alt=media&token=01ce3c2e-a060-4b31-b920-4d11e49a4d06" alt="joel">
-          </div>
-          <div class="col-xs-8 col-md-4">
-            <h1>Hi, I'm Joel Barenco</h1>
-            <h4>I'm a software developer</h4>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Projects
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">React App</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Project 2</a>
+              <a class="dropdown-item" href="#">Project 3</a>
+              <a class="dropdown-item" href="#">Project 4</a>
+              <a class="dropdown-item" href="#">Project 5</a>
+              <a class="dropdown-item" href="#">Project 6</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Me</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Me</a>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      
+      <div class="row sections align-items-center intro">
+        <div>
+        <p class="h1 col-12">Hi, I'm Joel Barenco</p>
+        <p class="h4 col-12">I'm a software developer</p>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/confusionserver-956e4.appspot.com/o/images%2Fportfolio_confusion.png?alt=media&token=7b3c03c6-ecb5-4b85-bfac-e295d51166fb" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">React App</h5>
+              <p class="card-text">Front-end app using React, bootstrap v.4, and redux</p>
+              <a href="https://joelb01-github.github.io" class="btn btn-primary">Visit App</a>
+            </div>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-xs-12 col-md-4">
-              <div class="well">
-              <a href="https://joelb01-github.github.io">
-              <div class="text-center text-primary">
-                <h4>React App</h4>
-                React, bootstrap, redux
-              </div>
-              <img class="img-responsive" src="https://firebasestorage.googleapis.com/v0/b/confusionserver-956e4.appspot.com/o/images%2Fportfolio_confusion.png?alt=media&token=7b3c03c6-ecb5-4b85-bfac-e295d51166fb"></a>
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://lightwidget.com/widgets/empty-photo.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">App Title</h5>
+              <p class="card-text">App description</p>
+              <a href="#" class="btn btn-primary">Visit App</a>
             </div>
-          </div>
-
-          <div class="col-xs-12 col-md-4">
-              <div class="well">
-              <a href="https://joelb01-github.github.io">
-              <div class="text-center text-primary">
-                <h4>Project Title</h4>
-                Project description
-              </div>
-              <img class="img-responsive" src=""></a>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-md-4">
-              <div class="well">
-              <a href="https://joelb01-github.github.io">
-              <div class="text-center text-primary">
-                <h4>Project Title</h4>
-                Project description
-              </div>
-              <img class="img-responsive" src=""></a>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-md-4">
-              <div class="well">
-              <a href="https://joelb01-github.github.io">
-              <div class="text-center text-primary">
-                <h4>Project Title</h4>
-                Project description
-              </div>
-              <img class="img-responsive" src=""></a>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-md-4">
-              <div class="well">
-              <a href="https://joelb01-github.github.io">
-              <div class="text-center text-primary">
-                <h4>Project Title</h4>
-                Project description
-              </div>
-              <img class="img-responsive" src=""></a>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-md-4">
-              <div class="well">
-              <a href="https://joelb01-github.github.io">
-              <div class="text-center text-primary">
-                <h4>Project Title</h4>
-                Project description
-              </div>
-              <img class="img-responsive" src=""></a>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="row">
-          <div class="well">
-            <h2>About Me</h2>
-            <p>Team player with a sharp analytical mind who loves problem solving and has a true passion for excellence. With 7 plus years multidisciplinary background that includes engineering, manufacturing and finance, possesses keen interests in industrial and technological businesses evolving in an international environment. </p>
-
-            <p>I'm now training to become a software engineer in the blockchain space. I have been learning Javascript/Node.js Full-Stack Web Development (React, Express, MongoDB) and I'm now enrolled on the Work on Blockchain developer bootcamp focusing on Ethereum smart contracts with Solidity. </p>
-
-            <p>Reach out to me if you are looking to hire a junior software engineer who is keen to immersed himself in the world of blockchain technology.</p>
           </div>
         </div>
 
-        <div class="row">
-          <h2>Contact Me</h2>
-          <a target="_blank" href="https://github.com/joelb01-github" ><i class="fa fa-github fa-lg"></i></a>
-          <a target="_blank"  href="https://www.linkedin.com/in/joelbarenco/"><i class="fa fa-linkedin fa-lg"></i></a>
-          <a target="_blank"  href="mailto:joelbarenco@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://lightwidget.com/widgets/empty-photo.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">App Title</h5>
+              <p class="card-text">App description</p>
+              <a href="#" class="btn btn-primary">Visit App</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-6 col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://lightwidget.com/widgets/empty-photo.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">App Title</h5>
+              <p class="card-text">App description</p>
+              <a href="#" class="btn btn-primary">Visit App</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-6 col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://lightwidget.com/widgets/empty-photo.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">App Title</h5>
+              <p class="card-text">App description</p>
+              <a href="#" class="btn btn-primary">Visit App</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-6 col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://lightwidget.com/widgets/empty-photo.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">App Title</h5>
+              <p class="card-text">App description</p>
+              <a href="#" class="btn btn-primary">Visit App</a>
+            </div>
+          </div>
         </div>
 
       </div>
 
-    </main>
-  </div>
+      <div class="row sections align-items-center about">
+        <div class="col-xs-4 col-md-4">
+          <img class="img-fluid" src="https://firebasestorage.googleapis.com/v0/b/confusionserver-956e4.appspot.com/o/images%2FJoel.jpeg?alt=media&token=01ce3c2e-a060-4b31-b920-4d11e49a4d06" alt="joel">
+        </div>
+
+        <div class="col-xs-8 col-md-8">
+            <h2>About Me</h2>
+            <p>Team player with a sharp analytical mind who loves problem solving and has a true passion for excellence. With 7 plus years multidisciplinary background that includes engineering, manufacturing and finance, possesses keen interests in industrial and technological businesses evolving in an international environment. </p>
+  
+            <p>I'm now training to become a software engineer in the blockchain space. I have been learning Javascript/Node.js Full-Stack Web Development (React, Express, MongoDB) and I'm now enrolled on the Work on Blockchain developer bootcamp focusing on Ethereum smart contracts with Solidity. </p>
+  
+            <p>Reach out to me if you are looking to hire a junior software engineer who is keen to immersed himself in the world of blockchain technology.</p>
+        </div>
+      </div>
+
+      <div class="row sections align-items-center contact">
+        <h2>Contact Me</h2>
+        <p>
+          <a target="_blank" href="https://github.com/joelb01-github" ><i class="fa fa-github fa-lg"></i></a>
+          <a target="_blank"  href="https://www.linkedin.com/in/joelbarenco/"><i class="fa fa-linkedin fa-lg"></i></a>
+          <a target="_blank"  href="mailto:joelbarenco@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
+        </p>
+      </div>
+
+    </div>
 
   <!-- scripts necessary for Bootstrap to function -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-</body>
+  </body>
 </html>

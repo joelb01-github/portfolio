@@ -1,0 +1,22 @@
+{
+  "name": "static_portfolio",
+  "version": "1.0.0",
+  "description": "joel barenco's app portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelb01-github/portfolio.git"
+  },
+  "author": "joel barenco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joelb01-github/portfolio/issues"
+  },
+  "homepage": "https://github.com/joelb01-github/portfolio#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  }
+}
